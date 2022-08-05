@@ -1,0 +1,74 @@
+/* Reset padding, margin and box-sizing */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #93caed;
+  font-family: Calibri, sans-serif;
+}
+
+.todo-list-container {
+  margin: auto;
+  width: 75%;
+  height: 100vh;
+  background: white;
+}
+
+.todo-list-container header {
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.todo-list-container header h1 {
+  font-variant-caps: all-small-caps;
+  font-size: 3.5em;
+  margin-bottom: 15px;
+}
+
+.todo-list-container header .write-todo-container input {
+  margin-top: 10px;
+  height: 30px;
+  width: 40%;
+  padding: 10px;
+}
+
+.todo-list-container header .write-todo-container button {
+  height: 30px;
+  width: 10%;
+  font-weight: bold;
+}
+
+.todo-list-container main ul {
+  list-style-type: none;
+}
+
+.todo-list-container main ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 30px;
+  border-bottom: solid 1px black;
+}
+
+.todo-list-container main ul li label {
+  margin: 15px;
+  font-size: 18px;
+}
+
+.todo-list-container main ul li button {
+  margin: 15px;
+  border-style: none;
+  background: none;
+  color: red;
+  font-size: 17px;
+}
+/*# sourceMappingURL=style.css.map */

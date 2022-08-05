@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Assignment - Todo list</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b15dbbfbd9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="todo-list-container">
+      <header>
+        <h1>My Todo List</h1>
+        <nav class="write-todo-container">
+          <label for="write-todo">Type here to add a new todo item:</label
+          ><br />
+          <input id="write-todo" type="text" /><button
+            id="add-todo"
+            type="button"
+          >
+            Add
+          </button>
+        </nav>
+      </header>
+      <main>
+        <ul id="todo-list"></ul>
+      </main>
+    </div>
+    <script type="text/javascript" src="api-client.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
